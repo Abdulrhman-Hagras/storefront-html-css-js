@@ -119,7 +119,7 @@
             };
 
             console.log('Added to cart:', cartItem);
-            alert(`✅ Added to cart!\n\n${cartItem.title}\nColor: ${cartItem.color}\nSize: ${cartItem.size}\nPrice: ${cartItem.price}`);
+            alert(`Successfully Added to cart!\n\n${cartItem.title}\nColor: ${cartItem.color}\nSize: ${cartItem.size}\nPrice: ${cartItem.price}`);
             
             closeModal();
         }
